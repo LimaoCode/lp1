@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    box-sizing: border-box;
+}
+
+.video-background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: #fff;
+    font-size: 5em;
+}
+
+.titulo-secundario{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #fff;
+    font-size: 3em;
+}
+
+.texto{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    color: #fff;
+    font-size: 2em;
+}
+
+.botao{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+
+    border: none;
+    border-radius: 55px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    padding: 18px 100px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.texto-botao{
+    color: rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
